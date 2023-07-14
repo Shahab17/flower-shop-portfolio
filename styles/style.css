@@ -172,6 +172,46 @@ span{
     border-radius: 7px;
     box-shadow: 10px 10px 20px gray;
 }
+
+/* Get the latest deals */
+.latest-deal-img{
+    margin: auto 140px; 
+    height: 350px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  gray; 
+}
+.latest-deals{
+    /* margin: auto 140px; */
+    /* height: 350px; */
+    margin-bottom: 130px;
+    text-align: center;
+    padding-top: 100px; 
+    
+}
+.latest-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    padding-bottom: 16px;
+    
+}
+.latest-deal-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+input{
+    padding: 15px 250px 15px 22px;
+    border: 0;
+    border-radius: 7px;
+    margin-right: 16px;
+}
  
 
  
