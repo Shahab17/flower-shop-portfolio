@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles used */
+.btn-primary{
+    font-size: 20px;
+    padding: 10px 15px;
+    background:rgba(146, 104, 26, 0.836);
+    border-radius: 7px;
+    border: 0;
+    color: white;    
+}
+.btn-primary:hover{
+    background-color: aqua;
+    cursor:grab;
+    color: black;
+}
+
+/* banner related styles */
+.banner{
+    height: 700px;
+    background: rgba(223, 158, 18, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 0px 100px;
+    margin-bottom: 170px;
+    gap: 100px;
+
+}
+.banner-left{
+    width: 500px;
+  
+}
+.banner-left-title{
+    font-size: 60px;
+    font-family: Lato;
+}
+.banner-left-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.banner-right img{
+    height: 700px;
+    
+}
+
+ 
