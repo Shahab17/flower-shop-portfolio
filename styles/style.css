@@ -65,15 +65,7 @@
     font-size: 16px;
     padding-bottom: 50px;
 }
-.feature-items{
-    /* text-align: center;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 120px; 
-    padding: auto 200px; */
-
-
-}
+ 
 .feature-container{
     margin: auto 140px;
     height: 230px;
@@ -113,6 +105,59 @@
     display: flex;
     justify-content: space-between;
    
+}
+
+/* special prices related styles */
+.price-container{
+  margin-top: 130px;
+  text-align: center;
+}
+.price-con-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.price-con-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    
+}
+.price-items{
+    margin: auto 140px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+    width: 250px;
+    height: 350px;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px gray;
+}
+.item-img{
+    height: 200px;
+    padding-top: 30px;   
+}
+.img-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px;
+    
+}
+.price{
+    text-align: right;
+    padding-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
