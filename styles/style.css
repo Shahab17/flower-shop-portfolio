@@ -134,7 +134,7 @@
     padding-bottom: 30px;
 }
 span{
-    color:rgba(255, 0, 0, 0.836);
+    color:rgba(146, 104, 26, 0.836);
 }
 .right-col{
    padding-top: 100px;
@@ -211,6 +211,33 @@ input{
     border: 0;
     border-radius: 7px;
     margin-right: 16px;
+}
+/* footer related styles */
+.footer{
+    margin-top: 130px;
+    height: 250px;
+    background: #0e0d0dd5;
+    text-align: center;
+    color: white;
+    padding-top:  130px;
+
+}
+.footer-title{
+    
+    font-family: Lato;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.footer-para{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+}
+small{
+    color: rgba(255, 255, 255, 0.40);;
+    font-family: Lato;
+    font-size: 16px;
 }
  
 
