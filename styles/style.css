@@ -25,7 +25,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 50px 30px 0px 100px;
-    margin-bottom: 170px;
+    margin-bottom: 130px;
     gap: 100px;
 
 }
@@ -50,7 +50,7 @@
     
 }
 /* Our featured flowers section related styles */
-.feature{
+ .feature{
     text-align: center;
 }
 .feature-title{
@@ -66,29 +66,45 @@
     padding-bottom: 50px;
 }
 .feature-items{
-    text-align: center;
+    /* text-align: center;
     display: flex;
     justify-content: space-around;
     margin-bottom: 120px; 
-    padding: auto 200px;
+    padding: auto 200px; */
 
 
 }
-.item-img{
-    width: 364px;
-    height: 438px;
+.feature-container{
+    margin: auto 140px;
+    height: 386px;
+    background-color: rgba(0, 255, 255, 0.185);
+    margin-bottom: 130px;
+    /* display: flex; */
+}
+.feature-box{
+    width: 200px;
+    height: 230px;
+    background-color: #272727;
+}
+.feature-text{
+    
+}
+/* .item-img{
+    
+    height: 338px;
     padding: 90px 70px 0 70px; 
     
-    /* border-color: 2px solid antiquewhite; */
+     border-color: 2px solid antiquewhite; 
     margin: auto 20px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-}
+} 
 .flower-img{
     height: 300px;
     margin-bottom: 30px;
-     
-}
+} */
+
+
 /* hot deal section related styles */
 .deal-container{
     height: 520px;
@@ -124,5 +140,38 @@ span{
    padding-top: 100px;
    padding-bottom: 100px;
 }
+/* instagram related styles */
+.insta{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.insta-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.insta-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.insta-container{
+    margin: auto 140px;
+    height: 230px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.insta-img{
+    width: 200px;
+    height: 230px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px gray;
+}
+ 
 
  
