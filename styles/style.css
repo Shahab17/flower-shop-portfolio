@@ -49,5 +49,22 @@
     height: 700px;
     
 }
+/* Our featured flowers section related styles */
+.feature{
+    text-align: center;
+}
+.feature-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    padding-bottom: 25px;
+
+}
+.feature-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
 
  
